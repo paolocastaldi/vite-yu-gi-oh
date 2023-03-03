@@ -1,15 +1,17 @@
+<template>
+  <Header />
+</template>
+
+
 <script>
+import Header from './components/Header.vue';
+
 export default {
 
 }
 </script>
 
-<template>
-  <div>
-    Yu-gi-oh
-  </div>
-</template>
 
 <style lang="scss">
-@use './style/general.scss'
+@use './style/general.scss';
 </style>
