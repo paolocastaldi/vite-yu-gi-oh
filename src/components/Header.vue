@@ -11,19 +11,17 @@
 export default {
     data() {
         return {
-            title: 'Yu-gi-oh'
+            title: 'Yu-gi-oh! Card list API'
         }
     }
 }
 </script>
 
 <style lang="scss" scoped>
-@use '../style/partials/variables' as *;
-
 .main-header {
     text-align: center;
-    font-size: 2rem;
-    background-color: $bg-color;
-    padding: 1rem 0;
+    font-size: 28px;
+    padding: 30px 0;
+    text-shadow: 4px 4px rgb(25, 21, 21);
 }
 </style>
